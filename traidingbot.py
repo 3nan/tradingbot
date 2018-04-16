@@ -15,7 +15,7 @@ def date_from_timestamp(s=None):
 
 if __name__ == '__main__':
     LINE_TOKEN=sys.argv[1]
-    print(LINE_TOKEN)
+    #print(LINE_TOKEN)
     cw=Cryptowatch("60,180")
     sma=Sma_Static(13,26)
     mycount=0
